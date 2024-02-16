@@ -1,0 +1,24 @@
+
+<button (click)="click()" class="btn btn-info">Menu</button>
+<p *ngIf="check;then geta"></p>
+<ng-template #geta>
+<div >
+   <div class="table_responsive">
+       <table class="table table-striped">
+           <thead>
+               <tr>
+               <th>Name</th>
+                <th>Price</th>
+                
+               </tr>
+           </thead>
+           <tbody >
+               <tr *ngFor="let a of Menuitem" >
+                   <td>{{a.Name}}</td>
+                   <td>{{a.Price}}</td>
+               </tr>
+           </tbody>
+       </table>
+   </div>  
+</div>
+</ng-template>

@@ -1,0 +1,19 @@
+.i{
+  background-image: url("https://img.freepik.com/free-photo/traditional-italian-food-world-tourism-day_23-2149114038.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+} 
+
+
+.img-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%; /* adjust the width as needed */
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}

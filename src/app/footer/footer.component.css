@@ -1,0 +1,30 @@
+
+
+  /* .footer-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    position:fixed;
+  }
+  
+  .footer {
+    margin-top: auto;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position:fixed;
+  }  */
+
+  footer {
+    width: 100%;
+    background-color:#196a70;
+    text-align: center;
+    font-size: larger;
+    color: #fff;
+    position: fixed;
+    padding:10px 0;;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}

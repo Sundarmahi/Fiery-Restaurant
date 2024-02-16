@@ -1,0 +1,15 @@
+
+<h2 align="center">Order Details</h2>
+<div class="container">
+  <a routerLink="/vieworders" class="btn btn-primary1">Back</a>
+  <div class="card" style="width: 48rem; height: 10rem;">
+    <h5>order id: {{orders.id}}</h5>
+    <h6>Cust Name: {{orders.contactName}}</h6>
+    <h6>order_Date: {{orders.orderDate}}</h6>
+    <h6>items_Ordered: {{orders.itemsOrdered}}</h6>
+    <h6>order_Total: {{orders.orderTotal}}</h6>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,21 @@
+/* .image {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-image: url("https://9jacuisine.co.uk/wp-content/uploads/2021/10/9ja-cuisine-Party-Hosting-1-1.jpg");
+    border: 4px solid #d3cbcb;
+    height: 800px;
+  } */
+
+  .full-page-image {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Set the height to 100 viewport height */
+  overflow: auto; /* Enable scrolling */
+}
+
+.full-page-image img {
+  width: 100%;
+  height: auto;
+}

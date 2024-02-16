@@ -1,0 +1,29 @@
+ .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background-color: black;
+    border-bottom: 1px solid black;
+    z-index: 10;
+  }
+   
+  .navbar .navbar-brand {
+    font-weight: bold;
+  }
+   
+  .navbar .navbar-nav {
+    margin-left: auto;
+  }
+
+
+  
+  
+  .bg-image{
+    background-image: url('https://9jacuisine.co.uk/wp-content/uploads/2021/10/9ja-cuisine-Party-Hosting-1-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
